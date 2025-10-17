@@ -11,7 +11,7 @@ service apache2 enable
 
 # Replace 'hostname', 'username', and 'password' with the actual RDS credentials.
 export MYSQL_PWD='password'
-mysql -h bluebirdhotel.cb2am6iowxq9.eu-central-1.rds.amazonaws.com -P 3306 -u bluebird_user bluebirdhotel
+mysql -h bluebird-db.cb2am6iowxq9.eu-central-1.rds.amazonaws.com -P 3306 -u bluebird_user < ./bluebirdhotel.sql
 
 
 # Copy project to /var/www/html

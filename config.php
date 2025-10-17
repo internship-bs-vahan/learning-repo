@@ -1,6 +1,6 @@
 <?php
 
-$server = "bluebirdhotel.cb2am6iowxq9.eu-central-1.rds.amazonaws.com";
+$server = "bluebird-db.cb2am6iowxq9.eu-central-1.rds.amazonaws.com";
 $username = "bluebird_user";
 $password = "password";
 $database = "bluebirdhotel";
